@@ -1,0 +1,9 @@
+%YAML:1.0
+---
+#相机基本参数
+ExposureTime:  12000            #曝光时间 曝光越低，图像越暗，帧率越高
+Gain:          [100,100,100]     #相机增益
+FrameSpeed:    500              #帧率
+ImageSize:     [1280,1024]         #图像分辨率
+Gamma:         100               #gamma值
+

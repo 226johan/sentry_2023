@@ -1,0 +1,55 @@
+%YAML:1.0
+---
+#图像预处理参数
+red_gary_thre_value: 96     #红色 灰度化->阈值化阈值 60    96
+red_minus_thre_value: 112     #红色 通道相减->阈值化阈值 80	  112    175
+
+blue_gary_thre_value: 170   #蓝色 灰度化->阈值化阈值 126       149     
+blue_minus_thre_value: 130    #蓝色 通道相减->阈值化阈值 80       170   180
+
+svm_thre_value: 20           #SVM阈值 
+#灯条参数
+min_light_ratio: 1           #灯条宽高比下限
+max_light_ratio: 11          #灯条宽高比上限
+
+max_light_area_ratio: 10     #灯条轮廓面积和灯条面积上限
+
+min_light_height: 0          #灯条高度下限
+
+min_light_area: 0           #灯条面积下限
+max_light_area: 5000          #灯条面积上限
+
+#灯条匹配参数
+max_lights_delta_y_x_ratio: 1  #两灯条中心两点dy/dx上限(*0.1)     1
+min_lights_delta_y_x_ratio: 0  #两灯条中心两点dy/dx下限(*0.1)     0
+
+max_lights_angle_differ: 16    #角度差上限(*0.1)                  13
+
+max_detla_y_x_angle: 25        #两灯条高度差/宽度差形成的角度上限   25
+
+max_height_differ: 125         #高度差上限                         25
+
+min_lights_height_ratio: 3     #高度比下限                          4
+
+max_lights_wh_ratio: 65        #装甲板宽高比上限(*0.1)              64
+min_lights_wh_ratio: 10        #宽高比上限(*0.1)                    14
+
+min_special_light_angle: 6     #特殊灯条角度下限                     6
+
+#装甲板参数
+min_armor_width: 20            #装甲板宽度下限
+max_armor_width: 3000          #装甲板宽度上限
+
+
+#灯条参数
+min_ratio: 0.05
+max_ratio: 0.4
+max_angle: 40.0
+
+#装甲板参数
+min_light_ratio: 0.6
+min_small_center_distance: 0.8
+max_small_center_distance: 3.2
+min_large_center_distance: 3.2
+max_large_center_distance: 5.0
+max_angle: 35.0
